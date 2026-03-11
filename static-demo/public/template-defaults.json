@@ -1,0 +1,4 @@
+{
+  "not_reviewed": "CUSTOM PERSISTENT TEMPLATE for [Workspace]\n\n[Domains]\n\nTest",
+  "not_allowed": "Dear User,\n\nThe following domains in your workspace ([Workspace]) have been marked as NOT ALLOWED:\n\nDomains: [Domains]\n\nPlease remove these or contact support for exceptions."
+}
