@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
           cache-dependency-path: static-demo/package-lock.json
 
@@ -35,3 +35,4 @@ jobs:
         with:
           folder: static-demo/dist
           branch: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
